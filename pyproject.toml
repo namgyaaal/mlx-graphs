@@ -18,10 +18,11 @@ classifiers = [
 ]
 dependencies = [
     "mlx>=0.18.0",
-    "numpy==1.26.3",
-    "requests==2.31.0",
-    "fsspec==2024.2.0",
-    "tqdm==4.66.1",
+    "numpy>=1.26.3",
+    "requests>=2.31.0",
+    "fsspec>=2024.2.0",
+    "tqdm>=4.66.1",
+    "mlx-lm>=0.26.2",
 ]
 
 [project.optional-dependencies]
