@@ -22,7 +22,7 @@ dependencies = [
     "requests==2.31.0",
     "fsspec==2024.2.0",
     "tqdm==4.66.1",
-    "mlx_cluster===0.0.4"
+    "mlx_cluster"
 ]
 
 [project.optional-dependencies]
@@ -67,3 +67,6 @@ extend-include = ["*.ipynb"]
 
 [tool.ruff.format]
 docstring-code-format = true
+
+[tool.uv.sources]
+mlx_cluster = {git = "https://github.com/namgyaaal/mlx_cluster.git"}
